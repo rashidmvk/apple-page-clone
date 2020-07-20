@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-image-area {
+    width: 1294px;
+    height: 600px;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(/images/your_verse_hero.png) no-repeat;
+}
+
+.flex-container {
+
+    display: flex;
+    overflow-x: hidden;
+    width: 1294px;
+}
+
+.flex-container img {
+
+    width: 324px;
+    height: 200px;
+}
