@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
 }
 
+ nav {
+     display: flex;
+ }
+
 .bg-image-area {
     width: 1295px;
     height: 601px;
