@@ -11,15 +11,26 @@ body {
      display: flex;
      margin-top: 80px;
      margin-bottom: 20px;
-     margin-left: 25%;
+     margin-left: 18%;
  }
 
  nav div {
      background-color:#777777;
-     border-image: linear-gradient(to bottom);
-     padding: 10px;
-     border:0.2px solid black;
+     background-image: linear-gradient(#777777,#626262);
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-right:0.2px solid black;
  }
+nav div a {
+    text-decoration: none;
+    color: white;
+}
+
+nav div:hover{
+    color: black;
+}
 
 .bg-image-area {
     width: 1295px;
@@ -41,4 +52,18 @@ body {
 
     width: 324px;
     height: 200px;
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-flex div {
+    font: 12px sans-serif;
+    margin-right: auto;
+}
+
+.footer-bottom {
+
+    font: 12px sans-serif;
 }
