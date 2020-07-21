@@ -9,6 +9,14 @@ body {
 
  nav {
      display: flex;
+     margin-top: 80px;
+     margin-bottom: 20px;
+     margin-left: 25%;
+ }
+
+ nav div {
+     margin-right: 40px;
+     color: white;
  }
 
 .bg-image-area {
