@@ -15,8 +15,10 @@ body {
  }
 
  nav div {
-     margin-right: 40px;
-     color: white;
+     background-color:#777777;
+     border-image: linear-gradient(to bottom);
+     padding: 10px;
+     border:0.2px solid black;
  }
 
 .bg-image-area {
