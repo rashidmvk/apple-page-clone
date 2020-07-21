@@ -11,7 +11,7 @@ body {
      display: flex;
      margin-top: 80px;
      margin-bottom: 20px;
-     margin-left: 18%;
+     margin-left: 17%;
  }
 
  nav div {
@@ -99,4 +99,8 @@ nav div:hover{
 .content-three a {
     text-decoration: none;
     color: white;
+}
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
