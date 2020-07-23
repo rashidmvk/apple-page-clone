@@ -61,6 +61,8 @@ nav div:hover{
 .footer-flex div {
     font: 12px sans-serif;
     margin-right: auto;
+    color: #828F9C;
+    margin-bottom: 15px;
 }
 
 .footer-bottom {
@@ -104,3 +106,27 @@ nav div:hover{
     color: white;
 }
 
+footer {
+    margin: 20px 40px 20px 40px;
+}
+.footer-flex div a {
+    text-decoration: none;
+}
+.footer-flex div a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.footer-flex div a img {
+    width: 13px;
+    height: 13px;
+    align-content: center;
+    position: absolute;
+    margin-left: 5px;
+}
