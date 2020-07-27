@@ -29,7 +29,7 @@ nav div a {
 }
 
 nav div:hover{
-    color: black;
+    background-image: linear-gradient(to bottom,#626262,black)
 }
 
 .bg-image-area {
