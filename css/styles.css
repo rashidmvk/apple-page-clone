@@ -1,132 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
- nav {
-     display: flex;
-     margin-top: 80px;
-     margin-bottom: 20px;
-     margin-left: 17%;
- }
+.full-layout {
+  display: flex;
+  flex-direction: column;
+}
 
- nav div {
-     background-color:#777777;
-     background-image: linear-gradient(to bottom,#626262 50%, #767676 8%);
-     padding-right: 20px;
-     padding-left: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     border-right:0.2px solid black;
- }
+nav {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 17%;
+}
+
+nav div {
+  background-color: #777777;
+  background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 0.2px solid black;
+}
 nav div a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-nav div:hover{
-    color: black;
+nav div:hover {
+  background-image: linear-gradient(to bottom, #626262, black);
 }
 
 .bg-image-area {
-    width: 1295px;
-    height: 601px;
-    background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background: url(/images/your_verse_hero.png) no-repeat;
+  width: 1295px;
+  height: 601px;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: url(/images/your_verse_hero.png) no-repeat;
 }
 
 .flex-container {
-
-    display: flex;
-    overflow-x: hidden;
-    width: 1294px;
+  display: flex;
+  overflow-x: hidden;
+  width: 1294px;
 }
 
 .flex-container img {
-
-    width: 324px;
-    height: 200px;
+  width: 324px;
+  height: 200px;
 }
 
 .footer-flex {
-    display: flex;
+  display: flex;
 }
 
 .footer-flex div {
-    font: 12px sans-serif;
-    margin-right: auto;
-    color: #828F9C;
-    margin-bottom: 15px;
+  font: 12px sans-serif;
+  margin-right: auto;
+  color: #828f9c;
+  margin-bottom: 15px;
 }
 
 .footer-bottom {
-
-    font: 12px sans-serif;
+  font: 12px sans-serif;
 }
 
 .content-one {
-    text-align: center;
-    font-size: 70px;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    font-family:'Lucida Grande';
-    font-weight: 100;
-    opacity: 1;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-family: "Lucida Grande";
+  font-weight: 100;
+  opacity: 1;
 }
 
 .content-one a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .content-two {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .content-two a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 .content-three {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 .content-three a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 footer {
-    margin: 20px 40px 20px 40px;
+  margin: 20px 40px 20px 40px;
 }
 .footer-flex div a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .footer-flex div a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-bottom a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer-bottom a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .footer-flex div a img {
-    width: 13px;
-    height: 13px;
-    align-content: center;
-    position: absolute;
-    margin-left: 5px;
+  width: 13px;
+  height: 13px;
+  align-content: center;
+  position: absolute;
+  margin-left: 5px;
+}
+
+main .content-three a:hover {
+    text-decoration: underline;
 }
