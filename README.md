@@ -9,7 +9,7 @@ This is a clone of apple page.
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://rashidmvk.github.io/)
+[Live Demo Link](https://rashidmvk.github.io/apple-page-clone/
 
 ## Authors
 
