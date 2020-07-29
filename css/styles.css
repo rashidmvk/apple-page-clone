@@ -45,7 +45,7 @@ nav {
   height: 601px;
   background-size: cover;
   max-width: 100%;
-  background-image: url("../images/your_verse_hero.png");
+  background-image: url(images/your_verse_hero.png);
 }
 
 .flex-container {
