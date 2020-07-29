@@ -43,7 +43,7 @@ nav div:hover {
   background-size: cover;
   overflow-x: hidden;
   overflow-y: hidden;
-  background: url(../images/your_verse_hero.png) no-repeat;
+  background-image: url("../images/your_verse_hero.png") no-repeat;
 }
 
 .flex-container {
