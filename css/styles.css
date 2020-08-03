@@ -10,10 +10,10 @@ body {
 nav {
   display: flex;
   position: relative;
-  top: 130px;
+  top: 150px;
   width: 67%;
   margin-bottom: 20px;
-  left: 200px;
+  left: 410px;
   border-radius: 8px;
 }
 
@@ -37,24 +37,29 @@ nav {
 }
 
 .bg-image-area {
-  background-image: url(/your_verse_hero.png);
+  background-image: url(../images/your_verse_hero_2x.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center 100%;
 }
 
 .flex-container {
   position: relative;
-  top: 70px;
+  top: 215px;
   display: flex;
 }
 
+.flex-container div {
+  width: 25%;
+}
+
 .flex-container img {
-  width: 324px;
+  width: 100%;
 }
 
 .footer-flex {
   position: relative;
-  top: 80px;
+  top: 250px;
   margin-top: 40px;
   display: flex;
 }
@@ -67,7 +72,9 @@ nav {
 }
 
 .footer-bottom {
+  position: relative;
   font: 12px sans-serif;
+  top: 150px;
 }
 
 .content-one {
