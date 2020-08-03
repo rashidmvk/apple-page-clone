@@ -10,12 +10,14 @@ body {
 nav {
   display: flex;
   position: relative;
-  top: 150px;
-  width: 67%;
+  top: 130px;
+  width: 70%;
   margin-bottom: 20px;
-  left: 410px;
+  left: 200px;
   border-radius: 8px;
 }
+
+
 
 .navbar-hover {
   background-color: #777;
@@ -24,12 +26,34 @@ nav {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
+  border-right: 0.2px solid black;
+}
+
+.navbar-hover-sep{
+  display: flex;
+  background-color: #777;
+  background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
   border-right: 0.2px solid black;
 }
 
 .navbar-hover a {
   text-decoration: none;
   color: white;
+}
+
+.navbar-hover-sep a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-hover-sep:hover {
+  background-image: linear-gradient(to bottom,#626262,black);
 }
 
 .navbar-hover:hover {
@@ -45,21 +69,19 @@ nav {
 
 .flex-container {
   position: relative;
-  top: 215px;
+  top: 160px;
   display: flex;
 }
-
 .flex-container div {
   width: 25%;
 }
-
 .flex-container img {
   width: 100%;
 }
 
 .footer-flex {
   position: relative;
-  top: 250px;
+  top: 200px;
   margin-top: 40px;
   display: flex;
 }
@@ -74,7 +96,7 @@ nav {
 .footer-bottom {
   position: relative;
   font: 12px sans-serif;
-  top: 150px;
+  top: 100px;
 }
 
 .content-one {
