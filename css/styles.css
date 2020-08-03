@@ -7,17 +7,13 @@ body {
   overflow-x: hidden;
 }
 
-.full-layout {
-  display: flex;
-  flex-direction: column;
-}
-
 nav {
   display: flex;
+  position: relative;
+  top: 130px;
   width: 67%;
-  margin-top: 80px;
   margin-bottom: 20px;
-  margin-left: 17%;
+  left: 200px;
   border-radius: 8px;
 }
 
@@ -41,25 +37,25 @@ nav {
 }
 
 .bg-image-area {
-  width: 1295px;
-  height: 601px;
-  background: url("../images/your_verse_hero.png") no-repeat;
-  background-size: cover;
-  max-width: 100%;
+  background-image: url(/your_verse_hero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .flex-container {
+  position: relative;
+  top: 70px;
   display: flex;
-  overflow-x: hidden;
-  width: 1294px;
 }
 
 .flex-container img {
   width: 324px;
-  height: 200px;
 }
 
 .footer-flex {
+  position: relative;
+  top: 80px;
+  margin-top: 40px;
   display: flex;
 }
 
@@ -78,7 +74,7 @@ nav {
   text-align: center;
   font-size: 70px;
   margin-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 170px;
   font-weight: 100;
   opacity: 1;
 }
@@ -111,16 +107,21 @@ nav {
   color: white;
 }
 
-footer {
-  margin: 20px 40px 20px 40px;
-}
-
 .foot-float a {
   text-decoration: none;
 }
 
 .footer-bottom a {
   text-decoration: none;
+}
+
+.content-three a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  margin: 20px 40px 20px 40px;
 }
 
 .footer-bottom a:hover {
