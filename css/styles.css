@@ -17,8 +17,6 @@ nav {
   border-radius: 8px;
 }
 
-
-
 .navbar-hover {
   background-color: #777;
   background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
@@ -30,7 +28,7 @@ nav {
   border-right: 0.2px solid black;
 }
 
-.navbar-hover-sep{
+.navbar-hover-sep {
   display: flex;
   background-color: #777;
   background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
@@ -53,7 +51,7 @@ nav {
 }
 
 .navbar-hover-sep:hover {
-  background-image: linear-gradient(to bottom,#626262,black);
+  background-image: linear-gradient(to bottom, #626262, black);
 }
 
 .navbar-hover:hover {
@@ -72,9 +70,11 @@ nav {
   top: 160px;
   display: flex;
 }
+
 .flex-container div {
   width: 25%;
 }
+
 .flex-container img {
   width: 100%;
 }
