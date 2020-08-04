@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  position: relative;
+  top: 130px;
+  width: 70%;
+  margin-bottom: 20px;
+  left: 200px;
+  border-radius: 8px;
+}
+
+.navbar-hover {
+  background-color: #777;
+  background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-right: 0.2px solid black;
+}
+
+.navbar-hover-sep {
+  display: flex;
+  background-color: #777;
+  background-image: linear-gradient(to bottom, #626262 50%, #767676 8%);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-right: 0.2px solid black;
+}
+
+.navbar-hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-hover-sep a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-hover-sep:hover {
+  background-image: linear-gradient(to bottom, #626262, black);
+}
+
+.navbar-hover:hover {
+  background-image: linear-gradient(to bottom, #626262, black);
+}
+
+.bg-image-area {
+  background-image: url(../images/your_verse_hero_2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+}
+
+.flex-container {
+  position: relative;
+  top: 160px;
+  display: flex;
+}
+
+.flex-container div {
+  width: 25%;
+}
+
+.flex-container img {
+  width: 100%;
+}
+
+.footer-flex {
+  position: relative;
+  top: 200px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.footer-flex div {
+  font: 12px sans-serif;
+  margin-right: auto;
+  color: #828f9c;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  position: relative;
+  font: 12px sans-serif;
+  top: 100px;
+}
+
+.content-one {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 15px;
+  margin-top: 170px;
+  font-weight: 100;
+  opacity: 1;
+}
+
+.content-one a {
+  text-decoration: none;
+  color: white;
+}
+
+.content-two {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.content-two a {
+  text-decoration: none;
+  color: white;
+}
+
+.content-three {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.content-three a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-float a {
+  text-decoration: none;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+}
+
+.content-three a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  margin: 20px 40px 20px 40px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.foot-float a:hover {
+  text-decoration: underline;
+}
+
+.foot-float a img {
+  width: 13px;
+  height: 13px;
+  align-content: center;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.foot-float {
+  float: right;
+}
